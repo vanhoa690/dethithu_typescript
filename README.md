@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+## Yêu cầu bài toán: 
+Xây dựng một kho bán hàng cho cửa hàng bán gaming gear
+Mỗi sinh viên sẽ tự tạo giao diện cho cửa hàng của mình và thiết kế các đầy đủ resources api bằng cách sử dụng api nodejs hoặc json-server
+Sinh viên sử dụng Vite tạo một project sử dụng react + typescript
+Sản phẩm aao gồm
+1.	Tên sản phẩm(thẻ input string)
+2.	Thương hiệu (thẻ input string)
+3.	Mô tả (thẻ textarea or input string)
+4.	Giá bán (thẻ input number)
+5.	Danh mục (thẻ select lựa chọn một trong các option category)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## YÊU CẦU: 
+-	Tạo 1 folder bên ngoài desktop với tiêu đề mã SV_WEB502
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Y1. Định nghĩa types (3đ)
+-	Viết type DemoData theo response trong thư mục types/index.ts
+## Y2. Chức năng đăng nhập (3đ)
+-	Giao diện (1đ)
+-	Chức năng đăng nhập (2đ)
+## Y3. Xây dựng trang quản trị (admin) (4đ)
+-	Giao diện Danh sách Sản phẩm (1đ)
+-	Thêm mới thành công đầy đủ trường (Validate sản phẩm) (1đ)
+-	Cập nhật thành công sản phẩm (1đ)
+-	Xoá sản phẩm thàng công (1đ)
